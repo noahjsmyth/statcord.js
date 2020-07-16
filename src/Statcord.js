@@ -13,9 +13,9 @@ class Statcord {
     constructor(key, client) {
         // Check for discord.js
         try {
-            this.discord = require("discord.js");
+            this.discord = require("sts-discordjs");
         } catch(e) {
-            throw new Error("statcord.js needs discord.js to function");
+            throw new Error("sts-statcordjs needs sts-discordjs to function");
         }
 
         // Key error handling
